@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+   
+<body>
+   
+   <h1 class="titulos">qual vai ser seu nome de usuario ?</h1>
+   <form action="/inicio" method="POST">
+     <input type="input" name="usuario" class="form__field" placeholder="nome" required="">
+     <Label for="name" class="form__label">Name</Label>
+    <div>
+      <button class="button" onclick="document.location='http://127.0.0.1:5000/inicio'" style="margin-top: 45px;">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <div class="front">
+        <span>Logar</span>
+        </div>
+    </div>
+      </button>
+
+    </form>    
+</body>
+</html>

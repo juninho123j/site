@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usuario</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+</head>
+<body>
+    <div style="display: flex;">
+        <div> 
+            <h1 class="text1">rei e santo</h1>
+            <img src="https://imgs.search.brave.com/NnlbhMiRr6Yz5q6637pRivppS4DJaIRIN2Ba2h_qxIE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tdXNp/Y29wb2xpcy5jb20u/YnIvd3AtY29udGVu/dC91cGxvYWRzLzIw/MjUvMDUvQ2FuY2Fv/LWUtTG91dm9yLVJl/aS1lLVNhbnRvLTgy/Nng0NjUud2VicA" alt="rei e santo" width="250" height="200">
+            <h1><audio controls class="sond1">
+                <source src="{{ url_for('static', filename='audio/rei_e_santo.mp3')}}">
+            </audio></h1>
+        </div>
+        <div>
+            <h1 class="text2">Cordeiro e Leão</h1>
+            <img src="https://imgs.search.brave.com/J2a8CA37AaLi2q7rMueUGUnUG2Ztsq8J-aXuh7Bv-64/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tdWx0/aXRyYWNrcy5ibG9i/LmNvcmUud2luZG93/cy5uZXQvcHVibGlj/L2ltYWdlcy9hbGJ1/bXMvMjg0LzEwMTgz/LmpwZw" alt="Cordeiro e Leão" width="250" height="200">
+            <h1><audio controls class="sond2">
+                <source src="{{ url_for('static', filename='audio/cordeiro_e_leao.mp3')}}">
+            </audio></h1>
+        </div>
+        <div>
+            <p><h1 class="text3">poderosamente vivo</h1></p>
+            <img src="https://imgs.search.brave.com/KcO3wdG8cfznWJ5khAP6C_t-UFAOE5blxcvX6bVWWb0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9p/UjZZRXZuWHdMZy9t/YXhyZXNkZWZhdWx0/LmpwZw" alt="poderosamente vivo" width="250" height="200">
+            <h1><audio controls class="sond3">
+                <source src="{{ url_for('static', filename='audio/Poderosamente_Vivo-sandra_pires.mp3')}}">
+            </audio></h1>
+        </div>
+</body> 
+    
+</html>

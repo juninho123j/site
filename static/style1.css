@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+.titulo1{
+    color: azure;
+    text-shadow: aquamarine;
+}
+.titulo2{
+    color: azure;
+}
+.titulo3{
+    color: azure;
+}
+button{
+    background: linear-gradient(45deg, rgb(0, 140, 255));
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: white;
+}
+button:hover{
+    transform: translatey(-2px);
+    box-shadow: 0 6px 15px white;
+}

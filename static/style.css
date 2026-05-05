@@ -140,7 +140,7 @@ body{
 
 .form__field:focus ~ .form__label {
   position: absolute;
-  top: 65px;
+  top: 55px;
   display: block;
   transition: 0.2s;
   font-size: 17px;
@@ -150,5 +150,5 @@ body{
 .form__field:not(:placeholder-shown) ~ .form__label {
   top: 67px;
   font-size: 14px;
-  color: #000000;
+  color: ##9b9b9b;
 }

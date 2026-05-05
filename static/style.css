@@ -150,5 +150,5 @@ body{
 .form__field:not(:placeholder-shown) ~ .form__label {
   top: 67px;
   font-size: 14px;
-  color: #9b9b9b;
+  color: #000000;
 }
